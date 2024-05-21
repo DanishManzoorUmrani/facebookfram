@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 50px; 
+    display: flex;
+    justify-content: space-between;
+   
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgb(198, 197, 197);
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+      left: 0px;
+}
+.menu{
+    position: relative;
+    left: 10px;
+}
+.menu i{
+    color: blue;
+    font-size: 25px;
+    margin: 5px 0px 0px 0px ;
+}
+.menu input{
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.menu2{
+    display: flex;
+    position: relative;
+}
+.menu2 i{
+    padding: 5px;
+    margin: 0px 30px;
+    position: relative;
+    left: -100px; 
+}
+.menu3{
+    position: relative;
+    right: 30px;
+}
+.menu3 i{
+    margin: 0px 20px 0px 0px;
+}
+.sidebars{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sidebae1{
+    width: 23%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    left: 0px;
+    /* overflow-y: scroll; */
+    border-right: 1px solid black;
+}
+.sidebae1 p{
+    height: 50px;
+    border-bottom: 1px solid black;
+    position:relative;
+    left: 00px;
+    top: 6px;
+    margin: 0px 8px;
+}
+ .sidebae1 i{
+padding: 0px 10px;
+}
+.sidebae2{
+position: absolute;
+border-right: 1px solid black;
+max-height: 90vh;
+left: 26%;
+width: 53%;
+/* overflow: scroll; */
+overflow-y: scroll;
+
+}
+
+.sidebae3{
+    position: fixed;
+    right: -40px;
+    width: 20%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.brands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 30px;
+    
+}
+.brands a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    width: 85%;
+    text-align: center;
+    height: 50px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.brands a:hover{
+    text-transform: capitalize;
+    background-color: #8c8a8a;
+    color: white;
+}
+
